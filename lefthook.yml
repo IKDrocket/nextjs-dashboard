@@ -1,0 +1,6 @@
+pre-commit:
+  parallel: true
+  commands:
+    frontend-linter:
+      glob: '*.{js,ts,jsx,tsx}'
+      run: npm run lint && npm run prettier:check
