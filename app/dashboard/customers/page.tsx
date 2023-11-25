@@ -1,6 +1,6 @@
 import { Metadata } from 'next';
-
 import { Suspense } from 'react';
+
 import CustomersTable from '@/app/ui/customers/table';
 
 export const metadata: Metadata = {
